@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<lint>
+    <issue id="ContentDescription">
+        <ignore path="res/layout/main.xml" />
+    </issue>
+    <issue id="DefaultLocale">
+        <ignore path="src/com/examples/Syllabus/MainActivity.java" />
+    </issue>
+    <issue id="HardcodedText">
+        <ignore path="res/layout/credits.xml" />
+        <ignore path="res/layout/main.xml" />
+        <ignore path="res/layout/settings.xml" />
+        <ignore path="res/layout/site.xml" />
+    </issue>
+    <issue id="InefficientWeight">
+        <ignore path="res/layout/settings.xml" />
+    </issue>
+    <issue id="ObsoleteLayoutParam">
+        <ignore path="res/layout/main.xml" />
+    </issue>
+    <issue id="ShowToast" severity="ignore" />
+    <issue id="UselessParent">
+        <ignore path="res/layout/main.xml" />
+    </issue>
+</lint>
